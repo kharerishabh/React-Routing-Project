@@ -9,10 +9,10 @@ const routeDefinations = createRoutesFromElements(
   </Route>
 )
 const router = createBrowserRouter(routeDefinations)
-// const router = createBrowserRouter([
-//   {path: '/', element: <HomePage/>},
-//   {path: '/product', element: <ProductPage/>}
-// ])
+// // const router = createBrowserRouter([
+// //   {path: '/', element: <HomePage/>},
+// //   {path: '/product', element: <ProductPage/>}
+// // ])
 function App() {
   return (<RouterProvider router={router}/>);
 }
