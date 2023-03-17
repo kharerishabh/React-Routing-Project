@@ -6,13 +6,13 @@ const HomePage = () => {
   }
 
   return (
-    <>
+    <div >
       <h1>My Home Page</h1>
       <p>
         Go to <Link to="/product"> the list of product</Link>
       </p>
       <button onClick={navigateHandler}>Navigate</button>
-    </>
+    </div>
   );
 };
 export default HomePage;
